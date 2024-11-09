@@ -1,3 +1,5 @@
+import { MaterialSymbolsDarkModeOutlineRounded } from "../assets/icons/dark-mode";
+import { MaterialSymbolsLightModeOutlineRounded } from "../assets/icons/light-mode";
 import { useTheme } from "../contexts/theme-context";
 
 export default function ModeToggle() {
@@ -5,7 +7,11 @@ export default function ModeToggle() {
 
   return (
     <button className="icon" onClick={toggleTheme}>
-      {theme === "light" ? "🌙" : "🌞"}
+      {theme === "light" ? (
+        <MaterialSymbolsLightModeOutlineRounded />
+      ) : (
+        <MaterialSymbolsDarkModeOutlineRounded />
+      )}
     </button>
   );
 }
