@@ -6,6 +6,22 @@ body {
   @apply bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50;
 }
 
+h1 {
+  @apply text-4xl font-extrabold lg:text-5xl;
+}
+
+h2 {
+  @apply text-3xl font-semibold;
+}
+
+h3 {
+  @apply text-2xl font-semibold;
+}
+
+h4 {
+  @apply text-xl font-semibold;
+}
+
 svg {
   @apply h-4 w-4;
 }

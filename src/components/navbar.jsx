@@ -1,11 +1,10 @@
-import { SITE } from "../lib/consts";
 import ModeToggle from "./mode-toggle";
 
-export default function Navbar() {
+export default function Navbar({ site }) {
   return (
     <nav>
       <a href="/" className="font-semibold">
-        {SITE?.REPO}
+        {site?.REPO}
       </a>
       <ul>
         <li>
