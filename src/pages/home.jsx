@@ -4,9 +4,9 @@ export default function Home() {
       <article>
         <p className="font-semibold">Hey there,</p>
         <p>
-          This is Vanilla Javascript + Tailwind CSS template with dark/light
-          theme mode, svg icons support with Icones, pre-styled components and
-          fully responsive.
+          This is React + Tailwind CSS template with router, dark/light theme
+          mode, svg icons support with Icones, pre-styled components, fully
+          responsive and SEO friendly.
         </p>
       </article>
       <article>
@@ -14,7 +14,7 @@ export default function Home() {
           Use this template via <code>@pr4j3sh/frames</code>
         </p>
         <pre>
-          <code>npm create @pr4j3sh/frames@latest js-tw myapp</code>
+          <code>npm create @pr4j3sh/frames@latest react-tw myapp</code>
         </pre>
         <blockquote>
           You can replace <code>myapp</code> with the choice of your name.
@@ -26,7 +26,7 @@ export default function Home() {
           <code>npm run dev</code>
         </pre>
       </article>
-      <a href="https://github.com/pr4j3sh/js-tw">
+      <a href="https://github.com/pr4j3sh/react-tw">
         <button>Get Started</button>
       </a>
       <article>
@@ -34,6 +34,14 @@ export default function Home() {
         <ul>
           <li>
             <a href="https://vite.dev/guide/">Vite Documentation</a>
+          </li>
+          <li>
+            <a href="https://react.dev/learn">React Documentation</a>
+          </li>
+          <li>
+            <a href="https://reactrouter.com/en/main/start/tutorial">
+              React Router Documentation
+            </a>
           </li>
           <li>
             <a href="https://tailwindcss.com/docs/utility-first">
