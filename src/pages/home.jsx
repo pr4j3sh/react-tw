@@ -26,33 +26,53 @@ export default function Home() {
           <code>npm run dev</code>
         </pre>
       </article>
-      <a href="https://github.com/pr4j3sh/react-tw">
+      <a href="https://github.com/pr4j3sh/react-tw" target="_blank">
         <button>Get Started</button>
       </a>
       <article>
         <p className="font-semibold">Read more</p>
         <ul>
           <li>
-            <a href="https://vite.dev/guide/">Vite Documentation</a>
+            <a className="link" href="https://vite.dev/guide/" target="_blank">
+              Vite Documentation
+            </a>
           </li>
           <li>
-            <a href="https://react.dev/learn">React Documentation</a>
+            <a className="link" href="https://react.dev/learn" target="_blank">
+              React Documentation
+            </a>
           </li>
           <li>
-            <a href="https://reactrouter.com/en/main/start/tutorial">
+            <a
+              className="link"
+              href="https://reactrouter.com/en/main/start/tutorial"
+              target="_blank"
+            >
               React Router Documentation
             </a>
           </li>
           <li>
-            <a href="https://tailwindcss.com/docs/utility-first">
+            <a
+              className="link"
+              href="https://tailwindcss.com/docs/utility-first"
+              target="_blank"
+            >
               Tailwind CSS Documentation
             </a>
           </li>
           <li>
-            <a href="https://icones.js.org/">Icones</a>
+            <a className="link" href="https://icones.js.org/" target="_blank">
+              Icones
+            </a>
           </li>
           <li>
-            <a href="https://github.com/pr4j3sh/frames">@pr4j3sh/frames</a>
+            <a
+              className="link"
+              href="https://github.com/pr4j3sh/frames"
+              target="_blank"
+            >
+              @pr4j3sh/frames
+            </a>
           </li>
         </ul>
       </article>
